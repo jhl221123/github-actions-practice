@@ -73,7 +73,7 @@ jacocoTestCoverageVerification {
 			}
 
 			excludes = [
-					'com.flab.tabling.TablingApplication'
+					'com.flab.tabling.GithubActionsApplication'
 			]
 		}
 	}
