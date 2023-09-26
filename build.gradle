@@ -73,8 +73,7 @@ jacocoTestCoverageVerification {
 			}
 
 			excludes = [
-					'practice.githubactions.GithubActionsApplication',
-					'practice.githubactions.Test'
+					'practice.githubactions.GithubActionsApplication'
 			]
 		}
 	}

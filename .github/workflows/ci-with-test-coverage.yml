@@ -6,8 +6,9 @@ on:
 
 jobs:
   build:
-    permissions: write-all
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write # pr comment 생성 권한 부여
 
     steps:
       - uses: actions/checkout@v3
