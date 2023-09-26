@@ -38,8 +38,8 @@ jobs:
       - name: Runs the unit tests with coverage
         run: ./gradlew testCoverage
 
-      - name: Add coverage to PR
-        uses: madrapps/jacoco-report@v1.2
+      - name: Jacoco Report to PR
+        uses: madrapps/jacoco-report@v1.6.1
         with:
           paths: ${{ github.workspace }}/build/reports/jacoco/test/jacocoTestReport.xml
           token: ${{ secrets.GITHUB_TOKEN }}
